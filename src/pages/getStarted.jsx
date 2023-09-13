@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const GetStartedPage = () => {
   return (
     <section className="bg-gray-50">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className="mx-auto max-w-screen-xl px-4 py-32 flex h-screen items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-2xl font-extrabold sm:text-4xl">
             Portfolio Frontend React JS <br/>
