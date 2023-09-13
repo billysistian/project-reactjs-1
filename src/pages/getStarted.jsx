@@ -26,9 +26,9 @@ const GetStartedPage = () => {
 
             <Link
               className="block w-full rounded px-12 py-3 text-sm font-medium text-black-600 shadow hover:text-black-700 focus:outline-none focus:ring active:text-black-500 sm:w-auto"
-              to="/about"
+              to="/products"
             >
-              Learn More
+              Products
             </Link>
           </div>
         </div>
