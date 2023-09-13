@@ -15,7 +15,7 @@ const FormLogin = () => {
     login(data, (status, res) => {
       if(status) {
         localStorage.setItem('token', res);
-        return redirect("/products");
+        location.href = "/products";
       } else {
         setLoginFailed(res.response.data);
       }
