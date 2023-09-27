@@ -36,6 +36,7 @@ const FormLogin = () => {
           type="text" 
           placeholder="Jhon Doe"
           name="username"
+          value="johnd"
           ref={userNameRef}
         />
         <InputForm
@@ -43,6 +44,7 @@ const FormLogin = () => {
           type="password" 
           placeholder="***"
           name="password"
+          value="m38rmF$"
         />
         <Button classname="bg-blue-600 w-full" type="submit">Login</Button>
       </form>
